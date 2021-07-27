@@ -1,8 +1,8 @@
-# xiangxue_project
+# 仿开眼视频app
 
 A new Flutter application.
 
-## Getting Started
+## 从零开始做一个Flutter项目
 
 This project is a starting point for a Flutter application.
 
