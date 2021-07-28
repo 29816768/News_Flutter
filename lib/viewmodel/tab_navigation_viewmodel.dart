@@ -1,4 +1,4 @@
-import 'package:xiangxue_project/viewmodel/base_change_notifier.dart';
+import 'package:wyqFlutter/viewmodel/base_change_notifier.dart';
 
 class TabNavigationViewMoel extends BaseChangNotifier{
 

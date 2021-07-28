@@ -1,9 +1,9 @@
-import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
-import 'package:xiangxue_project/config/string.dart';
-import 'package:xiangxue_project/utils/Toast.dart';
-import 'package:xiangxue_project/viewmodel/tab_navigation_viewmodel.dart';
-import 'package:xiangxue_project/widget/providerwidget.dart';
+import 'package:wyqFlutter/config/string.dart';
+import 'package:wyqFlutter/page/home/home_page.dart';
+import 'package:wyqFlutter/utils/Toast.dart';
+import 'package:wyqFlutter/viewmodel/tab_navigation_viewmodel.dart';
+import 'package:wyqFlutter/widget/providerwidget.dart';
 
 class TabNavgation extends StatefulWidget {
   @override
@@ -27,7 +27,8 @@ class _TabNavgationState extends State<TabNavgation> {
               controller: _pageController,
               physics: NeverScrollableScrollPhysics(), //禁止viewpage滑动
               children: [
-                Container(color: Colors.blue),
+                // Container(color: Colors.blue),
+                HomePage(),
                 Container(color: Colors.amber),
                 Container(color: Colors.green),
                 Container(color: Colors.deepOrangeAccent)
@@ -45,6 +46,7 @@ class _TabNavgationState extends State<TabNavgation> {
                   items: _item(),
                   onTap: (index){
                     if(model.currentIndex != index){
+                      // 直接跳转不带动画，自动 setState
                       _pageController.jumpToPage(index);
                       model.changeBottomTabIndex(index);
                     }

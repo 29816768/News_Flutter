@@ -1,5 +1,5 @@
 import 'package:flutter_splash_screen/flutter_splash_screen.dart';
-import 'package:xiangxue_project/http/Url.dart';
+import 'package:wyqFlutter/http/Url.dart';
 
 class AppInit{
 

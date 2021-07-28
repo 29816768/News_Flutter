@@ -2,8 +2,9 @@ import 'dart:io';
 
 import 'package:flutter/material.dart';
 import 'package:flutter/services.dart';
-import 'package:xiangxue_project/AppInit.dart';
-import 'package:xiangxue_project/tab_navigation.dart';
+import 'package:get/get_navigation/get_navigation.dart';
+import 'package:wyqFlutter/AppInit.dart';
+import 'package:wyqFlutter/tab_navigation.dart';
 
 void main() {
   runApp(MyApp());
@@ -45,12 +46,19 @@ class GetMaterialAppWidget extends StatefulWidget {
 class _GetMaterialAppWidgetState extends State<GetMaterialAppWidget> {
   @override
   Widget build(BuildContext context) {
-    return MaterialApp(
-      title: "EyePetizer",
+    // return MaterialApp(
+    //   title: "EyePetizer",
+    //   initialRoute: '/',
+    //   routes: {
+    //     '/':(BuildContext context) => widget.child,
+    //   },
+    // );
+    return GetMaterialApp(
+      title: "EyeVideo",
       initialRoute: '/',
-      routes: {
-        '/':(BuildContext context) => widget.child,
-      },
+      getPages: [
+        GetPage(name: '/', page: ()=>widget.child)
+      ],
     );
   }
 }

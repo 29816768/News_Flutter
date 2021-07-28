@@ -1,4 +1,4 @@
-name: xiangxue_project
+name: wyqFlutter
 description: A new Flutter application.
 
 # The following line prevents the package from being accidentally published to
@@ -31,6 +31,9 @@ dependencies:
   fluttertoast: ^8.0.7
   http: ^0.13.3
   provider: ^5.0.0
+  get: 4.2.4
+  flutter_swiper: ^1.1.6
+  extended_image: ^4.1.0
 
 dev_dependencies:
   flutter_test:

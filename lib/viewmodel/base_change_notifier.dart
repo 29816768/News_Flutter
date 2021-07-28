@@ -1,8 +1,8 @@
-
-
-import 'package:flutter/cupertino.dart';
+import 'package:flutter/material.dart';
+import 'package:wyqFlutter/widget/loading_state_widget.dart';
 
 class BaseChangNotifier with ChangeNotifier{
+  ViewState viewState = ViewState.loading;
 
   // 页面销毁则不发送通知
   bool _dispose = false;
