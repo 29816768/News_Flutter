@@ -4,6 +4,7 @@ import 'package:flutter/material.dart';
 import 'package:flutter/services.dart';
 import 'package:get/get_navigation/get_navigation.dart';
 import 'package:wyqFlutter/AppInit.dart';
+import 'package:wyqFlutter/page/video/video_detail_page.dart';
 import 'package:wyqFlutter/tab_navigation.dart';
 
 void main() {
@@ -57,7 +58,8 @@ class _GetMaterialAppWidgetState extends State<GetMaterialAppWidget> {
       title: "EyeVideo",
       initialRoute: '/',
       getPages: [
-        GetPage(name: '/', page: ()=>widget.child)
+        GetPage(name: '/', page: ()=>widget.child),
+        GetPage(name: '/detail', page: () => VideoDetailPage()),
       ],
     );
   }

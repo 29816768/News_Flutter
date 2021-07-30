@@ -7,7 +7,7 @@ class AppInit{
 
   ///hide your splash screen
   static Future<void> init() async {
-    Url.baseUrl = 'http://baobab.kaiyanapp.com/api/';
+    Url.baseUrl = 'https://baobab.kaiyanapp.com/api/';
     Future.delayed(Duration(milliseconds: 2000), () {
       FlutterSplashScreen.hide();
     });
