@@ -3,7 +3,9 @@
 
 ## 从零开始做一个Flutter项目
 
-首页：Banner和视频列表
-发现：包含关注、分类、专题、咨询、推荐五个tab
+首页：Banner和视频列表.
+![Image text](https://github.com/29816768/News_Flutter/blob/master/WechatIMG298.jpeg)
+发现：包含关注、分类、专题、咨询、推荐五个tab.
+![Image text](https://github.com/29816768/News_Flutter/blob/master/WechatIMG299.jpeg)
 热门：热门视频列表
 我的：个人页
