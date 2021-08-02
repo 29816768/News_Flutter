@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:wyqFlutter/config/string.dart';
+import 'package:wyqFlutter/page/discovery/discovery_page.dart';
 import 'package:wyqFlutter/page/home/home_page.dart';
 import 'package:wyqFlutter/utils/Toast.dart';
 import 'package:wyqFlutter/viewmodel/tab_navigation_viewmodel.dart';
@@ -29,7 +30,8 @@ class _TabNavgationState extends State<TabNavgation> {
               children: [
                 // Container(color: Colors.blue),
                 HomePage(),
-                Container(color: Colors.amber),
+                //Container(color: Colors.amber),
+                DiscoveryPage(),
                 Container(color: Colors.green),
                 Container(color: Colors.deepOrangeAccent)
               ],

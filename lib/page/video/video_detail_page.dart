@@ -33,7 +33,7 @@ class _VideoDetailPageState extends State<VideoDetailPage>
   @override
   void initState() {
     super.initState();
-    // TODO:获取路由传过来的数据
+    // 获取路由传过来的数据
     data = widget.videoDta == null ? arguments() : widget.videoDta;
     //监听页面可见与不可见状态
     WidgetsBinding.instance.addObserver(this);

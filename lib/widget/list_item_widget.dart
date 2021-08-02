@@ -2,6 +2,7 @@ import 'package:flutter/material.dart';
 import 'package:wyqFlutter/model/common_item.dart';
 import 'package:wyqFlutter/utils/cache_image.dart';
 import 'package:wyqFlutter/utils/date_util.dart';
+import 'package:wyqFlutter/utils/navigator_util.dart';
 import 'package:wyqFlutter/utils/share_util.dart';
 
 class ListItemWidget extends StatelessWidget {
@@ -27,8 +28,8 @@ class ListItemWidget extends StatelessWidget {
         GestureDetector(
           onTap: () {
             print('点击了,跳转详情页');
-            // TODO:跳转详情页
-
+            //跳转详情页
+            toNamed('/detail', item.data);
           },
           child: Padding(
             padding: EdgeInsets.fromLTRB(15, 10, 15, 10),
