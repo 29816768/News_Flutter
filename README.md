@@ -1,16 +1,9 @@
 # 仿开眼视频app
-
-A new Flutter application.
+一个学习项目，熟悉Dart语法和Flutter开发
 
 ## 从零开始做一个Flutter项目
 
-This project is a starting point for a Flutter application.
-
-A few resources to get you started if this is your first Flutter project:
-
-- [Lab: Write your first Flutter app](https://flutter.dev/docs/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://flutter.dev/docs/cookbook)
-
-For help getting started with Flutter, view our
-[online documentation](https://flutter.dev/docs), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+首页：Banner和视频列表
+发现：包含关注、分类、专题、咨询、推荐五个tab
+热门：热门视频列表
+我的：个人页
